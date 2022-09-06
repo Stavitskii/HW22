@@ -37,3 +37,4 @@ class Store(Storage):
     @property
     def get_unique_items_count(self):
         return len(self._items.keys())
+
